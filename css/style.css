@@ -115,7 +115,7 @@ img {
   background: url(../img/intro-bg.jpg) no-repeat center;
   background-size: cover;
   padding-top: 263px;
-  margin-bottom: 223px;
+  padding-bottom: 223px;
 }
 
 .intro__title {
@@ -398,4 +398,53 @@ img {
 }
 
 /*benefits places end*/
+/*tours style start*/
+.tours {
+  margin-bottom: 139px;
+}
+
+.tours__tour {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 77px;
+}
+
+.tour__info {
+  padding-left: 47px;
+}
+
+.tour__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+
+.tour__desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.tour__more {
+  font-size: 16px;
+  color: #006DFE;
+  padding-right: 59px;
+  text-decoration: none;
+  background: url(../img/svg/arrow-right-ico.svg) no-repeat 95% center;
+}
+
+.tour__more:hover, .tour__more:focus {
+  opacity: .65;
+}
+
+/*tours style end*/
+/*top style start*/
+/* top style finish*/
 /*# sourceMappingURL=style.css.map */

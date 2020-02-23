@@ -117,7 +117,7 @@ img {
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
-    margin-bottom: 223px;
+    padding-bottom: 223px;
 
     &__title {
         font-weight: 500;
@@ -301,8 +301,6 @@ img {
 
         background: url(../img/svg/arrow-right-ico.svg) no-repeat 95% center;
 
-
-
         &:hover,
         &:focus {
             opacity: .65;
@@ -342,7 +340,6 @@ img {
 
         &:hover .places__card-pic {
             transform: scale(1.05);
-
         }
     }
 
@@ -382,12 +379,60 @@ img {
     }
 }
 
-
-
-
-
-
-
-
-
 /*benefits places end*/
+
+/*tours style start*/
+
+.tours {
+    margin-bottom: 139px;
+}
+
+.tours__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tour {
+
+    &__info{
+        padding-left: 47px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 85px;
+    }
+
+    &__desc {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 58px;
+    }
+
+    &__more {
+        font-size: 16px;
+        color: #006DFE;
+        padding-right: 59px;
+        text-decoration: none;
+
+        background: url(../img/svg/arrow-right-ico.svg) no-repeat 95% center;
+
+        &:hover,
+        &:focus {
+            opacity: .65;
+        }
+    }
+
+}
+
+/*tours style end*/
+
+/*top style start*/
+
+
+/* top style finish*/
