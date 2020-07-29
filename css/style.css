@@ -32,10 +32,10 @@ html {
 .section-title::after {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   width: 253px;
   height: 3px;
-  background: #006DFE;
+  background: #006dfe;
   bottom: 0;
   left: 0;
 }
@@ -138,17 +138,16 @@ img {
   border: 0;
   border-bottom: 2px solid #bfc0c5;
   margin-right: 60px;
-  max-width: 297px;
+  width: 297px;
   padding-left: 43px;
   padding-bottom: 22px;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
+  outline: none;
 }
 
 .search-form__field::placeholder {
-  font-size: 18px;
-  line-height: 24px;
   color: #ffffff;
 }
 
@@ -241,11 +240,11 @@ img {
   padding-right: 59px;
   font-size: 16px;
   line-height: 24px;
-  color: #006DFE;
+  color: #006dfe;
   text-transform: uppercase;
   text-decoration: none;
   background: url(../img/svg/arrow-right-ico.svg) no-repeat 95%;
-  transition: .2s all;
+  transition: 0.2s all;
 }
 
 .benefits__card-more:hover,
@@ -261,7 +260,7 @@ img {
 
 /* Places styles start */
 
-.places{
+.places {
   margin-bottom: 131px;
 }
 
@@ -275,16 +274,16 @@ img {
 
 .places__view-all {
   font-size: 16px;
-  color: #006DFE;
+  color: #006dfe;
   text-decoration: none;
   padding-right: 59px;
   background: url(../img/svg/arrow-right-ico.svg) no-repeat right;
-  transition: .2s all;
+  transition: 0.2s all;
 }
 
 .places__view-all:hover,
 .places__view-all:focus {
-  opacity: .65;
+  opacity: 0.65;
 }
 
 .places__cards {
@@ -305,7 +304,7 @@ img {
   grid-column: span 2;
 }
 
-.places__card-pic_size_sm{
+.places__card-pic_size_sm {
   height: 283px;
 }
 
@@ -313,7 +312,7 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
-  transition: .15s all;
+  transition: 0.15s all;
 }
 
 .places__card {
@@ -328,7 +327,7 @@ img {
 .places__card::after {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: rgba(21, 24, 36, 0.4);
@@ -342,7 +341,7 @@ img {
   font-weight: bold;
   font-size: 50px;
   line-height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   bottom: 27px;
   left: 29px;
@@ -359,3 +358,150 @@ img {
 }
 
 /* Places styles end */
+
+/* Tours styles start */
+
+.tours {
+  margin-bottom: 139px;
+}
+
+.tour__info {
+  padding-left: 47px;
+}
+
+.tours__tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 108px;
+  align-items: center;
+  margin-bottom: 77px;
+}
+
+.tour__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+
+.tour__desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.tour__more {
+  font-size: 16px;
+  color: #006dfe;
+  text-decoration: none;
+  padding-right: 59px;
+  text-transform: uppercase;
+  background: url(../img/svg/arrow-right-ico.svg) no-repeat 95%;
+  transition: 0.2s all;
+}
+
+.tour__more:hover,
+.tour__more:focus {
+  background: url(../img/svg/arrow-right-ico.svg) no-repeat right;
+}
+
+/* Tours styles end */
+
+/* Top styles start */
+
+.top {
+  margin-bottom: 86px;
+}
+
+.top__title {
+  margin-bottom: 54px;
+}
+
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 57px;
+}
+
+.top__card{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top__card-pic {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+
+.top__card-thumb {
+  display: block;
+}
+
+.top__card-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 25px;
+  background: rgba(21, 24, 36, 0.6);
+  justify-content: flex-end;
+}
+
+.top__card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0 auto 0 0;
+}
+
+.top__card-likes,
+.top__card-comments {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.top__card-likes {
+  padding-right: 20px;
+  background: url(../img/svg/heart.svg) no-repeat right;
+  margin-right: 14px;
+}
+
+.top__card-comments {
+  padding-right: 23px;
+  background: url(../img/svg/comments.svg) no-repeat right;
+}
+
+.top__card-desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 31px;
+}
+
+.top__card-more {
+  width: 118px;
+  background: #1b7dff;
+  color: #fff;
+  padding: 12px 19px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  transition: background 0.5s linear;
+  text-decoration: none;
+  margin: auto 0 0 0;
+}
+
+.top__card-more:hover,
+.top__card-more:focus {
+  background: #0053bf;
+  cursor: pointer;
+}
+/* Top styles end */
