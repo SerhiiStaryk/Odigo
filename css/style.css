@@ -564,14 +564,24 @@ img {
   justify-content: space-between;
 }
 
+.footer__menu-title{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
 
-/* font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-color: #FFFFFF;
+.footer__menu-link{
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF; 
+  text-decoration: none;
+}
 
-
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF; */
+.footer__menu-link:hover,
+.footer__menu-link:focus,
+.footer__menu-link:active,
+.footer__menu-link:visited{
+  opacity: .75;
+}
 
